@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression Test,Chrome 101.0.4951.67,,,2022-06-02 23:48:40,2022-06-02 23:53:54,5m - 14.066s,PASSED
+,,,,,,,
+Test Cases/login_email_invalid,Chrome 101.0.4951.67,,,2022-06-02 23:48:41,2022-06-02 23:49:32,51.103s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.67,,,2022-06-02 23:48:41,2022-06-02 23:48:44,2.834s,PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Chrome 101.0.4951.67,,,2022-06-02 23:48:44,2022-06-02 23:48:45,1.338s,PASSED
+"setText(findTestObject(""Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_email""), ""email"")",Chrome 101.0.4951.67,,,2022-06-02 23:48:45,2022-06-02 23:48:46,0.842s,PASSED
+"setEncryptedText(findTestObject(""Facebook login valid/Page_Facebook  log in or sign up/input_password""), ""FdO0uRdxX7w="")",Chrome 101.0.4951.67,,,2022-06-02 23:48:46,2022-06-02 23:48:47,0.716s,PASSED
+"click(findTestObject(""Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In""))",Chrome 101.0.4951.67,,,2022-06-02 23:48:47,2022-06-02 23:49:19,31.606s,PASSED
+"verifyElementText(findTestObject(""Notifikasi login/Page_Log in to Facebook/div_Invalid username or password""), ""Invalid username or password"")",Chrome 101.0.4951.67,,,2022-06-02 23:49:19,2022-06-02 23:49:31,12.495s,PASSED
+closeBrowser(),Chrome 101.0.4951.67,,,2022-06-02 23:49:31,2022-06-02 23:49:32,0.770s,PASSED
+,,,,,,,
+Test Cases/login_email_null,Chrome 101.0.4951.67,,,2022-06-02 23:49:32,2022-06-02 23:50:20,47.758s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.67,,,2022-06-02 23:49:32,2022-06-02 23:49:34,1.374s,PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Chrome 101.0.4951.67,,,2022-06-02 23:49:34,2022-06-02 23:49:35,1.201s,PASSED
+"setText(findTestObject(""Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_email""), ""email"")",Chrome 101.0.4951.67,,,2022-06-02 23:49:35,2022-06-02 23:49:36,0.726s,PASSED
+"setEncryptedText(findTestObject(""Facebook login valid/Page_Facebook  log in or sign up/input_password""), ""FdO0uRdxX7w="")",Chrome 101.0.4951.67,,,2022-06-02 23:49:36,2022-06-02 23:49:36,0.644s,PASSED
+"click(findTestObject(""Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In""))",Chrome 101.0.4951.67,,,2022-06-02 23:49:36,2022-06-02 23:50:08,31.586s,PASSED
+"verifyElementText(findTestObject(""Notifikasi login/Page_Log in to Facebook/div_Invalid username or password""), ""Invalid username or password"")",Chrome 101.0.4951.67,,,2022-06-02 23:50:08,2022-06-02 23:50:19,11.062s,PASSED
+closeBrowser(),Chrome 101.0.4951.67,,,2022-06-02 23:50:19,2022-06-02 23:50:20,0.753s,PASSED
+,,,,,,,
+Test Cases/login_email_password_null,Chrome 101.0.4951.67,,,2022-06-02 23:50:20,2022-06-02 23:50:57,36.957s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.67,,,2022-06-02 23:50:20,2022-06-02 23:50:21,1.372s,PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Chrome 101.0.4951.67,,,2022-06-02 23:50:21,2022-06-02 23:50:23,1.133s,PASSED
+"click(findTestObject(""Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In""))",Chrome 101.0.4951.67,,,2022-06-02 23:50:23,2022-06-02 23:50:54,31.631s,PASSED
+"verifyElementText(findTestObject(""Notifikasi login/Page_Log in to Facebook/div_Invalid username or password""), ""Invalid username or password"")",Chrome 101.0.4951.67,,,2022-06-02 23:50:54,2022-06-02 23:50:56,1.691s,PASSED
+closeBrowser(),Chrome 101.0.4951.67,,,2022-06-02 23:50:56,2022-06-02 23:50:57,0.742s,PASSED
+,,,,,,,
+Test Cases/login_password_invalid,Chrome 101.0.4951.67,,,2022-06-02 23:50:57,2022-06-02 23:51:34,37.390s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.67,,,2022-06-02 23:50:57,2022-06-02 23:50:58,1.442s,PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Chrome 101.0.4951.67,,,2022-06-02 23:50:58,2022-06-02 23:51:00,1.176s,PASSED
+"setEncryptedText(findTestObject(""Facebook login valid/Page_Facebook  log in or sign up/input_password""), ""qR6uWNIaNDg="")",Chrome 101.0.4951.67,,,2022-06-02 23:51:00,2022-06-02 23:51:00,0.463s,PASSED
+"click(findTestObject(""Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In""))",Chrome 101.0.4951.67,,,2022-06-02 23:51:00,2022-06-02 23:51:32,31.606s,PASSED
+"verifyElementText(findTestObject(""Notifikasi login/Page_Log in to Facebook/div_Invalid username or password""), ""Invalid username or password"")",Chrome 101.0.4951.67,,,2022-06-02 23:51:32,2022-06-02 23:51:33,1.507s,PASSED
+closeBrowser(),Chrome 101.0.4951.67,,,2022-06-02 23:51:33,2022-06-02 23:51:34,0.800s,PASSED
+,,,,,,,
+Test Cases/login_password_null,Chrome 101.0.4951.67,,,2022-06-02 23:51:34,2022-06-02 23:52:13,38.975s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.67,,,2022-06-02 23:51:34,2022-06-02 23:51:36,1.487s,PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Chrome 101.0.4951.67,,,2022-06-02 23:51:36,2022-06-02 23:51:37,1.138s,PASSED
+"setText(findTestObject(""Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_email""), ""beandblues01@gmail.com"")",Chrome 101.0.4951.67,,,2022-06-02 23:51:37,2022-06-02 23:51:38,0.736s,PASSED
+"click(findTestObject(""Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In""))",Chrome 101.0.4951.67,,,2022-06-02 23:51:38,2022-06-02 23:52:09,31.655s,PASSED
+"verifyElementText(findTestObject(""Notifikasi login/Page_Log in to Facebook/div_Invalid username or password""), ""Invalid username or password"")",Chrome 101.0.4951.67,,,2022-06-02 23:52:09,2022-06-02 23:52:12,2.729s,PASSED
+closeBrowser(),Chrome 101.0.4951.67,,,2022-06-02 23:52:12,2022-06-02 23:52:13,0.814s,PASSED
+,,,,,,,
+Test Cases/login_valid,Chrome 101.0.4951.67,,,2022-06-02 23:52:13,2022-06-02 23:53:54,1m - 41.486s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.67,,,2022-06-02 23:52:13,2022-06-02 23:52:15,1.370s,PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Chrome 101.0.4951.67,,,2022-06-02 23:52:15,2022-06-02 23:52:16,1.224s,PASSED
+"setText(findTestObject(""Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_email""), ""beandblues01@gmail.com"")",Chrome 101.0.4951.67,,,2022-06-02 23:52:16,2022-06-02 23:52:17,0.831s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_password""), ""FdO0uRdxX7w="")",Chrome 101.0.4951.67,,,2022-06-02 23:52:17,2022-06-02 23:52:17,0.634s,PASSED
+"click(findTestObject(""Facebook login valid/Page_Facebook  log in or sign up/button tampil password""))",Chrome 101.0.4951.67,,,2022-06-02 23:52:17,2022-06-02 23:52:50,32.423s,PASSED
+"click(findTestObject(""Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button tampil password""))",Chrome 101.0.4951.67,,,2022-06-02 23:52:50,2022-06-02 23:53:21,31.609s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_password""), ""X4aFWEfDkZaegbQttTuVDB9F062HXyO4"")",Chrome 101.0.4951.67,,,2022-06-02 23:53:21,2022-06-02 23:53:22,0.567s,PASSED
+"click(findTestObject(""Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In""))",Chrome 101.0.4951.67,,,2022-06-02 23:53:22,2022-06-02 23:53:54,31.626s,PASSED
+closeBrowser(),Chrome 101.0.4951.67,,,2022-06-02 23:53:54,2022-06-02 23:53:54,0.806s,PASSED

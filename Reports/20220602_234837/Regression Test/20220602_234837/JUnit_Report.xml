@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression Test" time="314.066" tests="6" failures="0" errors="0">
+   <testsuite name="Regression Test" tests="6" failures="0" errors="0" time="314.066" skipped="0" timestamp="2022-06-02 23:48:40" hostname="ASUS ROG - LAPTOP-9SBQVLN0" id="Test Suites/Regression Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS ROG\\git\\Facebook-Login-Test\\Reports\\20220602_234837\\Regression Test\\20220602_234837"/>
+         <property name="logFiles" value="C:\\Users\\ASUS ROG\\git\\Facebook-Login-Test\\Reports\\20220602_234837\\Regression Test\\20220602_234837\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS ROG - LAPTOP-9SBQVLN0"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="browser" value="Chrome 101.0.4951.67"/>
+         <property name="hostAddress" value="192.168.100.217"/>
+         <property name="sessionId" value="a66297d7c6d3bd06d96cfcea15b2df45"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login_email_invalid" time="51.103" classname="Test Cases/login_email_invalid" status="PASSED">
+         <system-out><![CDATA[2022-06-02 23:48:41 - [TEST_CASE][PASSED] - Test Cases/login_email_invalid: Test Cases/login_email_invalid
+
+2022-06-02 23:48:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-02 23:48:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-02 23:48:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-02 23:48:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-02 23:48:44 - [TEST_STEP][PASSED] - navigateToUrl("https://www.facebook.com/"): Navigate to 'https://www.facebook.com/' successfully
+
+2022-06-02 23:48:45 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+2022-06-02 23:48:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_email"), "email"): Text 'email' is set on object 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_email'
+
+2022-06-02 23:48:46 - [MESSAGE][PASSED] - Text 'email' is set on object 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_email'
+
+2022-06-02 23:48:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Facebook login valid/Page_Facebook  log in or sign up/input_password"), "FdO0uRdxX7w="): Text ****** has been set on object 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_password'
+
+2022-06-02 23:48:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_password'
+
+2022-06-02 23:48:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In")): Object: 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In' is clicked on
+
+2022-06-02 23:49:18 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='u_0_d_fx']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-02 23:49:18 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In'. Try using Self-healing.
+
+2022-06-02 23:49:19 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Facebook helps you connect and share with the people in your life.'])[1]/following::button[1]'.
+
+2022-06-02 23:49:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In' is clicked on
+
+2022-06-02 23:49:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Notifikasi login/Page_Log in to Facebook/div_Invalid username or password"), "Invalid username or password"): Actual text and expected text of test object 'Object Repository/Notifikasi login/Page_Log in to Facebook/div_Invalid username or password' are matched.
+
+2022-06-02 23:49:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Notifikasi login/Page_Log in to Facebook/div_Invalid username or password' are matched.
+
+2022-06-02 23:49:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-02 23:49:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login_email_null" time="47.758" classname="Test Cases/login_email_null" status="PASSED">
+         <system-out><![CDATA[2022-06-02 23:49:32 - [TEST_CASE][PASSED] - Test Cases/login_email_null: Test Cases/login_email_null
+
+2022-06-02 23:49:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-02 23:49:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-02 23:49:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-02 23:49:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-02 23:49:34 - [TEST_STEP][PASSED] - navigateToUrl("https://www.facebook.com/"): Navigate to 'https://www.facebook.com/' successfully
+
+2022-06-02 23:49:35 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+2022-06-02 23:49:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_email"), "email"): Text 'email' is set on object 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_email'
+
+2022-06-02 23:49:36 - [MESSAGE][PASSED] - Text 'email' is set on object 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_email'
+
+2022-06-02 23:49:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Facebook login valid/Page_Facebook  log in or sign up/input_password"), "FdO0uRdxX7w="): Text ****** has been set on object 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_password'
+
+2022-06-02 23:49:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_password'
+
+2022-06-02 23:49:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In")): Object: 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In' is clicked on
+
+2022-06-02 23:50:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='u_0_d_fx']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-02 23:50:08 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In'. Try using Self-healing.
+
+2022-06-02 23:50:08 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Facebook helps you connect and share with the people in your life.'])[1]/following::button[1]'.
+
+2022-06-02 23:50:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In' is clicked on
+
+2022-06-02 23:50:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Notifikasi login/Page_Log in to Facebook/div_Invalid username or password"), "Invalid username or password"): Actual text and expected text of test object 'Object Repository/Notifikasi login/Page_Log in to Facebook/div_Invalid username or password' are matched.
+
+2022-06-02 23:50:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Notifikasi login/Page_Log in to Facebook/div_Invalid username or password' are matched.
+
+2022-06-02 23:50:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-02 23:50:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login_email_password_null" time="36.957" classname="Test Cases/login_email_password_null" status="PASSED">
+         <system-out><![CDATA[2022-06-02 23:50:20 - [TEST_CASE][PASSED] - Test Cases/login_email_password_null: Test Cases/login_email_password_null
+
+2022-06-02 23:50:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-02 23:50:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-02 23:50:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-02 23:50:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-02 23:50:21 - [TEST_STEP][PASSED] - navigateToUrl("https://www.facebook.com/"): Navigate to 'https://www.facebook.com/' successfully
+
+2022-06-02 23:50:23 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+2022-06-02 23:50:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In")): Object: 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In' is clicked on
+
+2022-06-02 23:50:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='u_0_d_fx']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-02 23:50:54 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In'. Try using Self-healing.
+
+2022-06-02 23:50:54 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Facebook helps you connect and share with the people in your life.'])[1]/following::button[1]'.
+
+2022-06-02 23:50:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In' is clicked on
+
+2022-06-02 23:50:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Notifikasi login/Page_Log in to Facebook/div_Invalid username or password"), "Invalid username or password"): Actual text and expected text of test object 'Object Repository/Notifikasi login/Page_Log in to Facebook/div_Invalid username or password' are matched.
+
+2022-06-02 23:50:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Notifikasi login/Page_Log in to Facebook/div_Invalid username or password' are matched.
+
+2022-06-02 23:50:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-02 23:50:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login_password_invalid" time="37.39" classname="Test Cases/login_password_invalid" status="PASSED">
+         <system-out><![CDATA[2022-06-02 23:50:57 - [TEST_CASE][PASSED] - Test Cases/login_password_invalid: Test Cases/login_password_invalid
+
+2022-06-02 23:50:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-02 23:50:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-02 23:50:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-02 23:50:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-02 23:50:58 - [TEST_STEP][PASSED] - navigateToUrl("https://www.facebook.com/"): Navigate to 'https://www.facebook.com/' successfully
+
+2022-06-02 23:51:00 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+2022-06-02 23:51:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Facebook login valid/Page_Facebook  log in or sign up/input_password"), "qR6uWNIaNDg="): Text ****** has been set on object 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_password'
+
+2022-06-02 23:51:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_password'
+
+2022-06-02 23:51:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In")): Object: 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In' is clicked on
+
+2022-06-02 23:51:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='u_0_d_fx']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-02 23:51:31 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In'. Try using Self-healing.
+
+2022-06-02 23:51:32 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Facebook helps you connect and share with the people in your life.'])[1]/following::button[1]'.
+
+2022-06-02 23:51:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In' is clicked on
+
+2022-06-02 23:51:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Notifikasi login/Page_Log in to Facebook/div_Invalid username or password"), "Invalid username or password"): Actual text and expected text of test object 'Object Repository/Notifikasi login/Page_Log in to Facebook/div_Invalid username or password' are matched.
+
+2022-06-02 23:51:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Notifikasi login/Page_Log in to Facebook/div_Invalid username or password' are matched.
+
+2022-06-02 23:51:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-02 23:51:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login_password_null" time="38.975" classname="Test Cases/login_password_null" status="PASSED">
+         <system-out><![CDATA[2022-06-02 23:51:34 - [TEST_CASE][PASSED] - Test Cases/login_password_null: Test Cases/login_password_null
+
+2022-06-02 23:51:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-02 23:51:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-02 23:51:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-02 23:51:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-02 23:51:36 - [TEST_STEP][PASSED] - navigateToUrl("https://www.facebook.com/"): Navigate to 'https://www.facebook.com/' successfully
+
+2022-06-02 23:51:37 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+2022-06-02 23:51:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_email"), "beandblues01@gmail.com"): Text 'beandblues01@gmail.com' is set on object 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_email'
+
+2022-06-02 23:51:38 - [MESSAGE][PASSED] - Text 'beandblues01@gmail.com' is set on object 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_email'
+
+2022-06-02 23:51:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In")): Object: 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In' is clicked on
+
+2022-06-02 23:52:09 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='u_0_d_fx']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-02 23:52:09 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In'. Try using Self-healing.
+
+2022-06-02 23:52:09 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Facebook helps you connect and share with the people in your life.'])[1]/following::button[1]'.
+
+2022-06-02 23:52:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In' is clicked on
+
+2022-06-02 23:52:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Notifikasi login/Page_Log in to Facebook/div_Invalid username or password"), "Invalid username or password"): Actual text and expected text of test object 'Object Repository/Notifikasi login/Page_Log in to Facebook/div_Invalid username or password' are matched.
+
+2022-06-02 23:52:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Notifikasi login/Page_Log in to Facebook/div_Invalid username or password' are matched.
+
+2022-06-02 23:52:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-02 23:52:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login_valid" time="101.486" classname="Test Cases/login_valid" status="PASSED">
+         <system-out><![CDATA[2022-06-02 23:52:13 - [TEST_CASE][PASSED] - Test Cases/login_valid: Test Cases/login_valid
+
+2022-06-02 23:52:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-06-02 23:52:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-02 23:52:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-02 23:52:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-06-02 23:52:15 - [TEST_STEP][PASSED] - navigateToUrl("https://www.facebook.com/"): Navigate to 'https://www.facebook.com/' successfully
+
+2022-06-02 23:52:16 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+2022-06-02 23:52:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_email"), "beandblues01@gmail.com"): Text 'beandblues01@gmail.com' is set on object 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_email'
+
+2022-06-02 23:52:17 - [MESSAGE][PASSED] - Text 'beandblues01@gmail.com' is set on object 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_email'
+
+2022-06-02 23:52:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_password"), "FdO0uRdxX7w="): Text ****** has been set on object 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_password'
+
+2022-06-02 23:52:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_password'
+
+2022-06-02 23:52:17 - [TEST_STEP][PASSED] - click(findTestObject("Facebook login valid/Page_Facebook  log in or sign up/button tampil password")): Object: 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button tampil password' is clicked on
+
+2022-06-02 23:52:49 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='u_0_c_Yk']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-02 23:52:49 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button tampil password'. Try using Self-healing.
+
+2022-06-02 23:52:49 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='u_0_c_Yk']'.
+
+2022-06-02 23:52:49 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='u_0_b_Bm']/a/div/div'.
+
+2022-06-02 23:52:49 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//a/div/div'.
+
+2022-06-02 23:52:50 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/ASUS ROG/git/Facebook-Login-Test/Reports/Self-healing/Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button tampil password_position.png
+
+2022-06-02 23:52:50 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button tampil password' was broken. Propose an alternative one: '//a/div/div'.
+
+2022-06-02 23:52:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button tampil password' is clicked on
+
+2022-06-02 23:52:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button tampil password")): Object: 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button tampil password' is clicked on
+
+2022-06-02 23:53:21 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='u_0_c_Yk']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-02 23:53:21 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button tampil password'. Try using Self-healing.
+
+2022-06-02 23:53:21 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button tampil password' was broken. Propose an alternative one: '//a/div/div'.
+
+2022-06-02 23:53:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button tampil password' is clicked on
+
+2022-06-02 23:53:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_password"), "X4aFWEfDkZaegbQttTuVDB9F062HXyO4"): Text ****** has been set on object 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_password'
+
+2022-06-02 23:53:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_password'
+
+2022-06-02 23:53:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In")): Object: 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In' is clicked on
+
+2022-06-02 23:53:53 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='u_0_d_fx']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-02 23:53:53 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In'. Try using Self-healing.
+
+2022-06-02 23:53:54 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Facebook helps you connect and share with the people in your life.'])[1]/following::button[1]'.
+
+2022-06-02 23:53:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In' is clicked on
+
+2022-06-02 23:53:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-02 23:53:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-02 23:48:40 - [TEST_SUITE][PASSED] - Regression Test: Test Cases/login_valid]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

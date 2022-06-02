@@ -1,0 +1,6 @@
+{"testCaseName":"Test Cases/login_email_invalid","testCaseId":"Test Cases/login_email_invalid","iterationVariableName":""}
+{"testCaseName":"Test Cases/login_email_null","testCaseId":"Test Cases/login_email_null","iterationVariableName":""}
+{"testCaseName":"Test Cases/login_email_password_null","testCaseId":"Test Cases/login_email_password_null","iterationVariableName":""}
+{"testCaseName":"Test Cases/login_password_invalid","testCaseId":"Test Cases/login_password_invalid","iterationVariableName":""}
+{"testCaseName":"Test Cases/login_password_null","testCaseId":"Test Cases/login_password_null","iterationVariableName":""}
+{"testCaseName":"Test Cases/login_valid","testCaseId":"Test Cases/login_valid","iterationVariableName":""}

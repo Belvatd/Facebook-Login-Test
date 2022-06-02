@@ -59,6 +59,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button tampil password",
+      "brokenLocator": "//div[@id\u003d\u0027u_0_c_Yk\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button tampil password_position.png"
     }
   ]
 }
