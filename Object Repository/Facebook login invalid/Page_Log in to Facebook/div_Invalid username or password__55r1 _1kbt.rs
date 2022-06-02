@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Invalid username or password__55r1 _1kbt</name>
+   <tag></tag>
+   <elementGuidId>f48fb1e5-3379-4957-a876-6cf0ccab9e36</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='loginform']/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div._55r1._1kbt</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3945e55f-afb0-4d63-adf4-b0b52cb151cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_55r1 _1kbt</value>
+      <webElementGuid>55bcf34f-a294-4a6f-a2a7-098905e6ed0c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;loginform&quot;)/div[@class=&quot;clearfix _5466 _44mg&quot;]/div[1]/div[@class=&quot;_55r1 _1kbt&quot;]</value>
+      <webElementGuid>9488ef9b-308a-4a43-a35d-38ec780b42cf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='loginform']/div[2]/div/div</value>
+      <webElementGuid>4fd0d75f-1fe3-44ef-8119-815dc285c99f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Invalid username or password'])[1]/following::div[5]</value>
+      <webElementGuid>39bd84cf-192f-42fe-9253-aca953ff0714</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wrong credentials'])[1]/following::div[6]</value>
+      <webElementGuid>f0d974f4-2635-4e85-8b05-a45fc23a60a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log In'])[1]/preceding::div[4]</value>
+      <webElementGuid>5f9262e8-c4ed-4c08-85d8-530e806ce66a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgotten password?'])[1]/preceding::div[5]</value>
+      <webElementGuid>061ab59c-3957-4b14-b954-d824f95b8e1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div[2]/div[2]/div/div</value>
+      <webElementGuid>630cbe98-cb48-4324-a8d0-62373284a2c3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
