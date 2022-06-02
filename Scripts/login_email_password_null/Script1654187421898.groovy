@@ -21,19 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.facebook.com/')
 
-WebUI.setText(findTestObject('Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_email'), 'beandblues01@gmail.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_password'), 
-    'FdO0uRdxX7w=')
-
-WebUI.click(findTestObject('Facebook login valid/Page_Facebook  log in or sign up/button tampil password'))
-
-WebUI.click(findTestObject('Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button tampil password'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Facebook login valid/Page_Facebook  log in or sign up/input_password'), 
-    'X4aFWEfDkZaegbQttTuVDB9F062HXyO4')
-
 WebUI.click(findTestObject('Object Repository/Facebook login valid/Page_Facebook  log in or sign up/button_Log In'))
+
+WebUI.verifyElementText(findTestObject('Notifikasi login/Page_Log in to Facebook/div_Invalid username or password'), 'Invalid username or password')
 
 WebUI.closeBrowser()
 

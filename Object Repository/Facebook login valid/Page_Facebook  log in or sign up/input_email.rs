@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Facebook helps you connect and share _ab63fc</name>
+   <name>input_email</name>
    <tag></tag>
-   <elementGuidId>c0fe3d01-2e12-4b9b-9e58-269a291274a1</elementGuidId>
+   <elementGuidId>da4fc494-efe0-4cd2-a299-1cd852100514</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='pass']</value>
+         <value>//input[@id='email']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#pass</value>
+         <value>#email</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,102 +22,110 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>7355fac4-b226-4865-bdb1-566a7b265329</webElementGuid>
+      <webElementGuid>78ce351c-c23b-4700-8a55-49883651fccc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>97d1da1c-d524-4d4b-859b-1e8fdf1c58ee</webElementGuid>
+      <value>text</value>
+      <webElementGuid>75f132cd-fc75-47d2-9a87-659e2ab13c94</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>inputtext _55r1 _6luy _9npi</value>
-      <webElementGuid>93a756c1-36fe-4086-93f1-ac2d4d1661d6</webElementGuid>
+      <value>inputtext _55r1 _6luy</value>
+      <webElementGuid>8d262ebe-092e-423f-b5b9-fea8c7700dea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>pass</value>
-      <webElementGuid>ae5a3c06-e4dc-4b96-bcec-12e7ec791f0a</webElementGuid>
+      <value>email</value>
+      <webElementGuid>331f643a-9655-4d4a-a718-8be7852a55d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>pass</value>
-      <webElementGuid>e7f95d50-9fff-41d9-a90c-5f4e388de118</webElementGuid>
+      <value>email</value>
+      <webElementGuid>1d16d994-4f65-4338-a05b-d5ee20c8679a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
-      <value>royal_pass</value>
-      <webElementGuid>bc5f5b34-98f2-474f-ad47-6bc2fb81e1b8</webElementGuid>
+      <value>royal_email</value>
+      <webElementGuid>0befbe35-113f-4fcd-b84d-c26ea8452240</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Password</value>
-      <webElementGuid>f351efc1-7a24-41c8-990e-28cc0d02197a</webElementGuid>
+      <value>Email address or phone number</value>
+      <webElementGuid>0f2d7369-e3ce-4d87-ba7f-e6e312a47e50</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autofocus</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>a44c0a2b-23f4-401a-ab13-758c3d90daa9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-label</name>
       <type>Main</type>
-      <value>Password</value>
-      <webElementGuid>3e45565e-97cd-4e32-a4f1-876991ee936a</webElementGuid>
+      <value>Email address or phone number</value>
+      <webElementGuid>ce234419-8e7e-4f52-99c0-d4e84c6b7336</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;pass&quot;)</value>
-      <webElementGuid>f7b88e9a-b01d-46f0-9ed6-028603941512</webElementGuid>
+      <value>id(&quot;email&quot;)</value>
+      <webElementGuid>d77567f9-b7cd-4b02-a4e6-872bfc881488</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='pass']</value>
-      <webElementGuid>0ca7807f-e4f4-4115-b636-a87322199b0f</webElementGuid>
+      <value>//input[@id='email']</value>
+      <webElementGuid>89af10a4-bab4-409a-8c14-21990f11b68c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='passContainer']/input</value>
-      <webElementGuid>1f3828fc-21ff-42ec-866f-9d587d413375</webElementGuid>
+      <value>//form[@id='u_0_a_ZV']/div/div/input</value>
+      <webElementGuid>f6e3b961-d87d-4b73-9637-c4bfa77b8921</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/input</value>
-      <webElementGuid>c6329c91-bd0e-436d-82ae-385541336128</webElementGuid>
+      <value>//div/input</value>
+      <webElementGuid>d099ad84-51f0-49fa-8da2-3985b7e8b74e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'password' and @name = 'pass' and @id = 'pass' and @placeholder = 'Password']</value>
-      <webElementGuid>a78ba46d-1cab-44ae-a550-cc6e754e8784</webElementGuid>
+      <value>//input[@type = 'text' and @name = 'email' and @id = 'email' and @placeholder = 'Email address or phone number']</value>
+      <webElementGuid>3f7d17aa-f94c-4715-8356-a22328c8eac6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
